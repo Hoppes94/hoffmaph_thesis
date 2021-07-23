@@ -1,0 +1,29 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="de.mindsquare.zph_Thesis.controller.Home"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<Page  title="{i18n>appTitle}">
+		<List id="maintenanceOrderList" items="{/Ih-Order}">
+		<headerToolbar>
+		<Toolbar>
+			<Title text="Filter und so"/>
+			<ToolbarSpacer/>
+			<SearchField id="scannedValue" width="50%" search="onFilterMaintenanceOrders" />
+			<Button icon="sap-icon://bar-code" id="buttonScan" text="Scan" tooltip="Scan barcode" visible="{device>/barcodeScanEnabled}" press="onScanForValue"/>
+			</Toolbar>
+			</headerToolbar>
+				<ObjectListItem title="{Instandhaltungsauftrag}" intro="{i18n>IhBeschreibung}" type="Navigation"
+						press=".onListItemPressed">
+					<firstStatus>
+						<ObjectStatus title="{i18n>Prioritaet}" icon="sap-icon://flag"
+							state="{= ${Prioritaet} === '1' ? 'Error' : ${Prioritaet} === '2' ? 'Error' : ${Prioritaet} === '3' ? 'Warning' : 'None'}"/>
+					</firstStatus>
+					<secondStatus>
+						<ObjectStatus title="{i18n>IH-Status}" text="{= ${Status} === '0' ? ${i18n>IH-Status1} : ${i18n>IH-Status2} }"/>
+					</secondStatus>
+					<ObjectAttribute title="{i18n>Equipment}" text="{Equipment}"/>
+					<ObjectAttribute title="{i18n>TechPlatz}" text="{TechnPlatz}"/>
+				</ObjectListItem>
+			</List>
+		</Page>
+	</App>
+</mvc:View>

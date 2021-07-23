@@ -1,0 +1,911 @@
+{
+	"Ih-Order": [{
+		"Instandhaltungsauftrag": "4000034",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1000",
+		"SchadensBez": "Rotorblatt gebrochen",
+		"TechnPlatz": "G201-E01-XX-01",
+		"TechnPlatzBez": "Geb. 201 - Ebene 1",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Rotorschutz entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Rotor wechseln",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0040": [{
+				"Beschreibung": "Rotorschutz anbringen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0050": [{
+				"Beschreibung": "Abdeckung anbringen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+
+		"Instandhaltungsauftrag": "4000035",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "4",
+		"Status": "1",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1001",
+		"SchadensBez": "Rotorblatt gerissen",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001008",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-003",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Rotorschutz entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Rotor reparieren",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "F1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0040": [{
+				"Beschreibung": "Rotorschutz anbringen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0050": [{
+				"Beschreibung": "Abdeckung anbringen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000036",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1002",
+		"SchadensBez": "Filter abgenutzt",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Filterabdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Filter wechseln",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Filterabdeckung anbringen",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000037",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "1",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1002",
+		"SchadensBez": "Filter abgenutzt",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Filterabdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Filter wechseln",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Filterabdeckung anbringen",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000038",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "4",
+		"Status": "1",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1003",
+		"SchadensBez": "Gehäuse verbeult",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Gehäuse entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Gehäuse ausbeulen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Gehäuse entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000039",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "2",
+		"Status": "1",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1004",
+		"SchadensBez": "Ungewöhnliche Geräusche",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Möglichkeit 1",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Möglichkeit 2",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Möglichkeit 3",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": ""
+			}],
+			"0040": [{
+				"Beschreibung": "Möglichkeit 4",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000040",
+		"Auftragsbeschreibung": "Maschinenstillstand",
+		"Prioritaet": "1",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1005",
+		"SchadensBez": "Motor überhitzt",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Lüfung prüfen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Filter prüfen",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000041",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "4",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1000",
+		"SchadensBez": "Rotorblatt gebrochen",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Rotorschutz entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Rotor wechseln",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": ""
+			}],
+			"0040": [{
+				"Beschreibung": "Rotorschutz anbringen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0050": [{
+				"Beschreibung": "Abdeckung anbringen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000042",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "4",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1000",
+		"SchadensBez": "Rotorblatt gebrochen",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Rotorschutz entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Rotor wechseln",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": ""
+			}],
+			"0040": [{
+				"Beschreibung": "Rotorschutz anbringen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0050": [{
+				"Beschreibung": "Abdeckung anbringen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000043",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "4",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1000",
+		"SchadensBez": "Rotorblatt gebrochen",
+		"TechnPlatz": "G201-E01-XX-01",
+		"TechnPlatzBez": "Geb. 201 - Ebene 1",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Rotorschutz entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Rotor wechseln",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0040": [{
+				"Beschreibung": "Rotorschutz anbringen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0050": [{
+				"Beschreibung": "Abdeckung anbringen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+
+		"Instandhaltungsauftrag": "4000044",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "2",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1001",
+		"SchadensBez": "Rotorblatt gerissen",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001008",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-003",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Rotorschutz entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Rotor reparieren",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "F1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0040": [{
+				"Beschreibung": "Rotorschutz anbringen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0050": [{
+				"Beschreibung": "Abdeckung anbringen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000045",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1002",
+		"SchadensBez": "Filter abgenutzt",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Filterabdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Filter wechseln",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Filterabdeckung anbringen",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000046",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1002",
+		"SchadensBez": "Filter abgenutzt",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Filterabdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": "Materialbeschr."
+			}],
+			"0020": [{
+				"Beschreibung": "Filter wechseln",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Filterabdeckung anbringen",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": "Materialbeschr."
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000047",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1003",
+		"SchadensBez": "Gehäuse verbeult",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Gehäuse entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Gehäuse ausbeulen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Gehäuse entfernen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000048",
+		"Auftragsbeschreibung": "Fehler Belüftung",
+		"Prioritaet": "3",
+		"Status": "0",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1004",
+		"SchadensBez": "Ungewöhnliche Geräusche",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Möglichkeit 1",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Möglichkeit 2",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Möglichkeit 3",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": ""
+			}],
+			"0040": [{
+				"Beschreibung": "Möglichkeit 4",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}]
+		}]
+	}, {
+		"Instandhaltungsauftrag": "4000049",
+		"Auftragsbeschreibung": "Maschinenstillstand",
+		"Prioritaet": "2",
+		"Status": "1",
+		"Schadensbild": "VENT",
+		"Schadenscode": "1005",
+		"SchadensBez": "Motor überhitzt",
+		"TechnPlatz": "G202-E01-XX-03",
+		"TechnPlatzBez": "Geb. 202 - Ebene 3",
+		"Equipment": "10001007",
+		"EquipmentBez": "Equipment am Arbeitsplatz F-002",
+		"Vorgang": [{
+			"0010": [{
+				"Beschreibung": "Abdeckung entfernen",
+				"SollArbeitszeit": 2,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R1-117",
+				"MaterialBez": ""
+			}],
+			"0020": [{
+				"Beschreibung": "Lüfung prüfen",
+				"SollArbeitszeit": 1,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "",
+				"MaterialBez": ""
+			}],
+			"0030": [{
+				"Beschreibung": "Filter prüfen",
+				"SollArbeitszeit": 3,
+				"IstArbeitszeit": 0,
+				"Startdatum": "",
+				"Startzeit": "",
+				"Enddatum" : "",
+				"Endzeit": "",
+				"Material": "R3-117",
+				"MaterialBez": ""
+			}]
+		}]
+	}]
+}

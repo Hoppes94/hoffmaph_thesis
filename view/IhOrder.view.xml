@@ -1,0 +1,10 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="de.mindsquare.zph_Thesis.controller.IhOrder"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="IhOrder" showNavButton="true" navButtonPress="onNavBack">
+				<content></content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
