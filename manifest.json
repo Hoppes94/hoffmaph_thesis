@@ -1,0 +1,170 @@
+{
+	"name": "Instandhaltungs PWA",
+	"short_name": "ZPH",
+	"_version": "1.12.0",
+	"start_url": "./index.html",
+	"display": "fullscreen",
+	"background_color": "#FFFFFF",
+	"theme_color": "#ea5b0b",
+	"icons": [
+		{
+			"src": "./android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./favicon.ico",
+			"sizes": "48x48",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./favicon-32x32.ico",
+			"sizes": "32x32",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"sap.app": {
+		"id": "de.mindsquare.zph_Thesis",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "de.mindsquare.zph_Thesis.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "App"
+		},
+		"dependencies": {
+			"minUI5Version": "1.65.6",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "de.mindsquare.zph_Thesis.i18n.i18n"
+				},
+				"preload": true
+			},
+			"": {
+				"uri": "data/IhOrders.json",
+				"type": "sap.ui.model.json.JSONModel"
+			}
+		},
+		"resources": {
+			"js": [
+				{
+					"uri": "libs/quagga.min.js"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "de.mindsquare.zph_Thesis.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"clearControlAggregation": false,
+				"bypassed": {
+					"target": "targetInvalid"
+				}
+			},
+			"routes": [
+				{
+					"name": "Home",
+					"pattern": "",
+					"target": "targetHome"
+				},
+				{
+					"pattern": "ihOrder/{id}",
+					"name": "ihOrderDetail",
+					"target": "targetIhOrderDetail"
+				},
+				{
+					"name": "ihOrder",
+					"pattern": "ihOrder",
+					"target": "targetIhOrder"
+				}
+			],
+			"targets": {
+				"targetHome": {
+					"viewName": "Home",
+					"view-level": 1
+				},
+				"Home": {
+					"viewName": "Home"
+				},
+				"targetInvalid": {
+					"viewName": "NotFound",
+					"transition": "show"
+				},
+				"targetIhOrder": {
+					"viewName": "IhOrder",
+					"transition": "slide",
+					"view-level": 2
+				},
+				"targetIhOrderDetail": {
+					"viewName": "IhOrderDetail",
+					"transition": "show",
+					"view-level": 3
+				},
+				"IhOrderDetail": {
+					"viewType": "XML",
+					"viewName": "IhOrderDetail"
+				}
+			}
+		}
+	}
+}
